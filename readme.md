@@ -24,7 +24,10 @@ home controller a
 yazdım
 -----------------------------------------------------------
 home index e 
-    
+
+              <a href="/Home/Querystring?name=Hasan&lastname=Ayaz">Linke Git</a>
+
+
  ekledim.
 -----------------------------------------------------------
  QueryStringModel
