@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\oguzf\\Desktop\\ÇALIŞMALAR\\querystring\\querystring.csproj": {}
+    "C:\\Users\\oguzf\\Desktop\\ÇALIŞMALAR\\querystring\\querystring.csproj": {}
   },
   "projects": {
-    "c:\\Users\\oguzf\\Desktop\\ÇALIŞMALAR\\querystring\\querystring.csproj": {
+    "C:\\Users\\oguzf\\Desktop\\ÇALIŞMALAR\\querystring\\querystring.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\oguzf\\Desktop\\ÇALIŞMALAR\\querystring\\querystring.csproj",
+        "projectUniqueName": "C:\\Users\\oguzf\\Desktop\\ÇALIŞMALAR\\querystring\\querystring.csproj",
         "projectName": "querystring",
-        "projectPath": "c:\\Users\\oguzf\\Desktop\\ÇALIŞMALAR\\querystring\\querystring.csproj",
+        "projectPath": "C:\\Users\\oguzf\\Desktop\\ÇALIŞMALAR\\querystring\\querystring.csproj",
         "packagesPath": "C:\\Users\\oguzf\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\oguzf\\Desktop\\ÇALIŞMALAR\\querystring\\obj\\",
+        "outputPath": "C:\\Users\\oguzf\\Desktop\\ÇALIŞMALAR\\querystring\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
