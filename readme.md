@@ -54,18 +54,18 @@ sayfa altında acıklamaları var
 daha sonra homecontrollera bu yazıldı
 
 
-    public IHelper _helper;
-    public HomeController(IHelper helper)
-    {
-        _helper = helper;
-    }
+        public IHelper _helper;
+        public HomeController(IHelper helper)
+        {
+            _helper = helper;
+        }
 
 
-  public IActionResult QueryString(QueryStringModel model){
-        var result = HttpContext.Request.QueryString;
-        _helper.GetQueryString();
-        return View();
-     }
+    public IActionResult QueryString(QueryStringModel model){
+            var result = HttpContext.Request.QueryString;
+            _helper.GetQueryString();
+            return View();
+        }
 
 
 -----------------------------------------------------------
