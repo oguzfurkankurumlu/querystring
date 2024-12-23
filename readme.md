@@ -15,14 +15,14 @@ her zaman browserın adres cubugndan gonderılır.
 bu sebeple gızlı verılen querystrıng ıle gonderılmemesı tasınmaması gerekmektedir.
 -----------------------------------------------------------
 home controller a 
-  public IActionResult Querystring()
-    {
-        return View();
-    }
+    public IActionResult Querystring()
+        {
+            return View();
+        }
 yazdım
 -----------------------------------------------------------
 home index e 
- <!-- <a href="/Home/Querystring?name=Hasan&lastname=Ayaz">Linke Git</a> -->
+    
  ekledim.
 -----------------------------------------------------------
  QueryStringModel
@@ -30,17 +30,19 @@ home index e
 -----------------------------------------------------------
  homecontrollerda 
  
- public IActionResult Querystring(QueryStringModel model)
-    {
-        return View();
-    }
+    public IActionResult Querystring(QueryStringModel model)
+        {
+            return View();
+        }
 seklınde yazdım.
 -----------------------------------------------------------
 program.cs e 
-builder.Services.AddHttpContextAccessor();
-builder.Services.AddScoped<IHelper,Helper>();
+    builder.Services.AddHttpContextAccessor();
+    builder.Services.AddScoped<IHelper,Helper>();
 ekledim
-builder.Services.AddScoped<IHelper, Helper>(); satırı, ASP.NET Core'da Dependency Injection (Bağımlılık Enjeksiyonu) için bir hizmet (service) kaydı yapar. Bu, uygulama boyunca bir interface ile bir sınıfın bağlanmasını sağlar ve böylece uygulama, bu sınıfın bir örneğini (instance) ihtiyacı olduğunda otomatik olarak oluşturabilir.
+
+    builder.Services.AddScoped<IHelper, Helper>(); satırı, 
+ASP.NET Core'da Dependency Injection (Bağımlılık Enjeksiyonu) için bir hizmet (service) kaydı yapar. Bu, uygulama boyunca bir interface ile bir sınıfın bağlanmasını sağlar ve böylece uygulama, bu sınıfın bir örneğini (instance) ihtiyacı olduğunda otomatik olarak oluşturabilir.
 -----------------------------------------------------------
 external klasoru actım ıcıne helper.cs yazdım.
 sayfa altında acıklamaları var
