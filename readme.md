@@ -15,10 +15,12 @@ her zaman browserın adres cubugndan gonderılır.
 bu sebeple gızlı verılen querystrıng ıle gonderılmemesı tasınmaması gerekmektedir.
 -----------------------------------------------------------
 home controller a 
-    public IActionResult Querystring()
-        {
-            return View();
-        }
+
+        public IActionResult Querystring()
+            {
+                return View();
+            }
+
 yazdım
 -----------------------------------------------------------
 home index e 
