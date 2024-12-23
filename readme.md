@@ -37,11 +37,14 @@ home index e
 seklınde yazdım.
 -----------------------------------------------------------
 program.cs e 
-    builder.Services.AddHttpContextAccessor();
-    builder.Services.AddScoped<IHelper,Helper>();
+    
+        builder.Services.AddHttpContextAccessor();
+        builder.Services.AddScoped<IHelper,Helper>();
+
 ekledim
 
-    builder.Services.AddScoped<IHelper, Helper>(); satırı, 
+    builder.Services.AddScoped<IHelper, Helper>();
+     satırı, 
 ASP.NET Core'da Dependency Injection (Bağımlılık Enjeksiyonu) için bir hizmet (service) kaydı yapar. Bu, uygulama boyunca bir interface ile bir sınıfın bağlanmasını sağlar ve böylece uygulama, bu sınıfın bir örneğini (instance) ihtiyacı olduğunda otomatik olarak oluşturabilir.
 -----------------------------------------------------------
 external klasoru actım ıcıne helper.cs yazdım.
